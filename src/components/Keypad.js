@@ -7,8 +7,13 @@ export default class Keypad extends Component {
   }
 
   handleInput = (event) => {
-    let newValue = event.target.value
-    console.log(event.target.value)
+    console.log('Entering password...')
+    // event.persist()
+    // console.log(event.target.value)
+    // let newValue = event.target.value
+    // this.setState({
+    //   value: newValue
+    // }, ()=> console.log(event.target.value))
   }
 
   render() {
